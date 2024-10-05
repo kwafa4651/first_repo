@@ -1,0 +1,22 @@
+p{
+    color: brown;
+    padding: 20px;
+    background-color: aquamarine;
+    border: 2px dotted rgb(84, 71, 180);
+}
+
+.darkMode{
+    background-color: black;
+    color: aliceblue;
+    padding: 30px;
+    font-size: large;
+    border: 2px dotted green;
+    border-radius: 5;
+    margin: 50px;
+}
+
+/* 
+
+any number of style...
+
+*/
