@@ -16,10 +16,10 @@ max-height: 10px;
 
 }
 h2{ 
-    border: 2px solid;
-color:darkkhaki;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+    border: 2px dashed;
+color:#14618e;
+font-family:Algerian;
+text-align: center;
 }
 div{
 width: 200px;
@@ -35,4 +35,7 @@ width: 10px;
 height: 10;
 
 
+}
+body{
+    background-color: #9092a2;
 }
