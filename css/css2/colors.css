@@ -1,13 +1,10 @@
-cite{
-    color: blue;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-}
-i{
-border: 2px solid;
+.iClass{
+border: 2px solid blueviolet;
 padding: 2px;
 margin: 2px;
-color: blueviolet;
+color: blue;
+;
 
 }
 h4{
@@ -18,17 +15,24 @@ h4{
 max-height: 10px;
 
 }
-span{
-background-color: orangered;
-font-family: Arial, Helvetica, sans-serif;
+h2{ 
+    border: 2px solid;
+color:darkkhaki;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
-body{
-    background-color: skyblue;
-font-family: cursive;
+div{
+width: 200px;
+border: 15px solid #1d4f6d;
+padding: 100px;
+margin: 20px;
 }
-b{
-    border: 1px solid ;
-    text-align: center;
-    color: darkslategray;
+p.pclass{
+
+
+    border: 1px groove #c7ed68;
+width: 10px;
+height: 10;
+
+
 }
