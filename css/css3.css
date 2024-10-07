@@ -1,0 +1,74 @@
+h1{ 
+    border: 2% solid lawngreen;
+margin: auto;
+padding: auto;
+text-align: center;
+}
+
+a{
+background-color: #0bb87eb6;
+color: white;
+padding: 20px 25px;
+text-align: center;
+text-decoration: none;
+display:inline-block ;
+}
+a:hover,a:active{
+
+background-color: chartreuse;
+
+
+}
+
+span{
+    background-color:blue;
+color: white;
+padding: 10px 10px;
+text-align: center;
+text-decoration: none;
+display:inline-block ;
+
+}
+
+
+
+
+span c.calss{
+    background-color: darkblue;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block ;
+}
+
+
+
+
+span b.calss{
+
+    background-color: red;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block ;
+}
+
+
+div{
+width: 250px;px ;
+border: 10px solid  hsl(165, 58%, 27%);
+padding: 15px;
+margin: 20pxs;
+
+
+}
+blockquote{
+
+
+  
+
+
+
+}
