@@ -1,0 +1,20 @@
+i{
+    color: white;
+}
+
+cite{
+    border: 2px solid white;
+}
+
+
+p{
+    color: white;
+}
+a{
+    background:color #295093;
+    color: white;
+padding: 10px 15px;
+text-align: center;
+text-decoration: none;
+display:inline-block
+}
