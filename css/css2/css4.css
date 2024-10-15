@@ -1,20 +1,44 @@
-i{
+table{
+    border: 1px solid greenyellow;
+    background-color: black;
     color: white;
 }
-
-cite{
-    border: 2px solid white;
-}
-
-
-p{
+tr{
+    border: 1px solid greenyellow;
+    background-color: black;
     color: white;
 }
-a{
-    background:color #295093;
+th{
+    border: 1px solid greenyellow;
+    background-color: black;
     color: white;
-padding: 10px 15px;
-text-align: center;
-text-decoration: none;
-display:inline-block
 }
+body{ 
+    background-color: hsl(71, 25%, 51%);
+}
+td{
+    
+    border: 1px solid greenyellow;
+    background-color: black;
+    color: white;
+}
+table, th, td {
+    border: 1px solid rgb(24, 193, 184);
+    border-collapse: collapse: 10px;
+  }
+ .city {
+    border: 1px solid rgb(24, 193, 184);
+    border-collapse:collapse 10px;
+  }
+  .outset{
+    border: 1px dashed darkgoldenrod;
+    border: outset;
+  }
+  .inset{
+    border-style:dashed;
+    border-color: #0ed665;
+  }
+  .solid{
+    border: 1px solid hwb(0 8% 25%);
+    border-radius: 10px;
+  }
