@@ -1,21 +1,47 @@
-h1{ 
-    border: 2% solid lawngreen;
-margin: auto;
-padding: auto;
-text-align: center;
+h1{
+  text-align: center;
+  text-decoration: wavy;
 }
 
-a{
-background-color: #295093;
-color: white;
-padding: 20px 25px;
-text-align: center;
-text-decoration: none;
-display:inline-block ;
+
+
+ul{
+    list-style-type: none;
+    margin: 20px;
+padding: 15px;
+overflow: hidden;
+background-color: hsla(328, 16%, 38%, 0.179);
 }
-a:hover,a:active{
+li{
+    float:unset;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align:left;
+        padding: 16px;
+        text-decoration: none; 
+      }
+      
+li a:hover {
+    background-color: rgba(0, 0, 0, 0.533);
+  }
+      body{
+        background-image: url(../Images/data.jpg)100%100%;
+      }
+      ul{
+        border: 8px outset #9c2f8149;
 
-background-color: #293093;
-
-
-}
+      }
+      ul{
+        list-style-type: square;
+      }
+      div{
+        border: 15px double hsl(324, 42%, 12%);
+        padding: 1px;
+        margin: 2px;
+        background-color: hsla(0, 11%, 5%, 0.248);
+      }
+      li{
+        font-size:larger;
+      }
