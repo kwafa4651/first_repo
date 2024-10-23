@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframe</title>
+    <style>
+        body {
+            background-image: url(../Images/black\ backround.jpg) 100%100%;
+        }
+
+        span {
+            width: 100%;
+            overflow: auto;
+            background-color: rgb(255, 255, 255);
+        }
+
+        div {
+            width: 30%;
+            float: left;
+            color: white;
+            padding: 10px;
+        }
+
+        iframe {
+            height: 200px;
+            width: 50%;
+            border: 3px double slateblue;
+            float: right;
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    
+    <h2>Iframe - Target for a Link</h2>
+
+<iframe src="iframe.html" iframe_a height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="iframe.html" target="iframe_a">W3Schools.com</a></p>
+<p  style="float: left;"padding="10px"><a href="websiteKhalid.html" target="iframe_2">Iframe 2</a></p>
+<p style="float: left;"padding="10px"><a href="inline elements.html" target="iframe_3">Iframe 3</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+
+<hr>
+<iframe src="index.html"  title="index page" target="index.html"></iframe>
+<br><iframe src="../o.html"  title="o html" target="o .html"></iframe>
+
+<hr>
+    <a href="iframe1.html" target="iframe" style="float: left;"> website one</
+    <span>
+        <div style="background-color: #374049;">
+            <b>Html</b>
+            <p>An HTML iframe is used to display a web page within a web page </p>
+        </div>
+    </span>
+    <br>
+    <iframe src="index.html" frameborder="0" title="index page" target="index.html"></iframe>
+    <br><iframe src="../o.html" frameborder="0" title="o html" target="o .html"></iframe>
+
+</body>
+
+</html>
