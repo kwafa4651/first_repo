@@ -1,0 +1,67 @@
+header {
+    background-color: gray;
+    text-align: center;
+    height: 80px;
+}
+
+div {
+    border: 2px solid darkgoldenrod;
+    width: 800;
+    height: 530px;
+}
+
+nav {
+    background-color: hwb(221 24% 67%);
+    height: 40px;
+    color: white;
+}
+
+section {
+    background-color: hwb(218 25% 66%);
+    color: #9b9ab88c;
+    float: left;
+    height: 385px;
+    width: 150px;
+}
+
+article {
+    background-color: hwb(230 37% 49% / 0.277);
+    height: 370px;
+}
+
+aside {
+    background-color: #9b9ab88c;
+    float: right;
+    height: 350px;
+    width: 150px;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+a {
+    font-size: small;
+    color: white;
+    text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+
+a:hover {
+    background-color: hsla(0, 26%, 15%, 0.812);
+    height:35px ;
+}
+.classp :hover{
+    background-color: rgba(0, 0, 0, 0.811);
+    height:20px ;
+}
+h1{
+    padding: 10px;
+}
+iframe {
+    height: 300px;
+    width: 70%;
+    border: 1px double rgba(7, 2, 2, 0.422);
+    float: right;
+}

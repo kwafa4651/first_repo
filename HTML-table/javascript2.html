@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" Types="x-icon" href="../Images/front of car.png">
+    <title>Types of car</title>
+    <style>
+        button {
+            background-color: darkslategrey;
+            color: white;
+            padding: 10px;
+            margin: 5px;
+        }
+
+        button:hover,
+        button:active {
+            background-color: rgba(0, 0, 0, 0.625);
+        }
+    </style>
+</head>
+
+<body style="background-color: black;color: white;">
+    <h1>View body of car </h1>
+    <img id="myImage" src="../Images/front of car.png" alt="Old Image">
+
+
+    <button onclick="change1Image()">Back car</button>
+    <button onclick="change3Image()">Left car</button>
+    <button onclick="change2Image()">Right car</button>
+    <button onclick="changeImage()">front car</button>
+    <button onclick="change4Image()">light On</button>
+    <button onclick="change5Image()">ligth Off</button>
+    <script>
+        function changeImage() {
+            document.getElementById("myImage").src = "../Images/front of car.png";
+        }
+        function change1Image() {
+            document.getElementById("myImage").src = "../Images/back of car.png";
+        }
+        function change2Image() {
+            document.getElementById("myImage").src = "../Images/car 2.png";
+        }
+        function change3Image() {
+            document.getElementById("myImage").src = "../Images/car 1.png";
+        }
+        function change4Image() {
+            document.getElementById("myImage").src = "../Images/light of car.png";
+        }
+        function change5Image() {
+            document.getElementById("myImage").src = "../Images/front of car.png";
+        }
+
+    </script>ipt>
+
+</body>
+
+</html>
